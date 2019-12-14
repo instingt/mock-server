@@ -1,0 +1,28 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: наркоман шоле? какие тесты?!\" && exit 1",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "serve": "node dist/index.js",
+    "serve-dev": "nodemon dist/index.js --watch dist",
+    "start": "npm run build-ts && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.17",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
